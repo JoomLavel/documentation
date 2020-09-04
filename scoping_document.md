@@ -34,14 +34,19 @@
 
 1.1. ...
 
-2.1. As a developer i clone the JoomLavel-Connector project to develop my first Joomla component => clone and type:" php JoomLavel make: component BobsFirstComponent"
+2.1. *As a developer i clone the JoomLavel-Connector project to develop my first Joomla component*
+=> clone and type:" php JoomLavel make: component BobsFirstComponent"
 
-2.2. As a configurations assistent, developer or devOps i install own JoomLavel-Component on my instance and make basic configuration in Joomla administration => basic configuration should be preconfigured and should expect a simple api endpoint (i.e. https: //api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0)
-  => basic configuration cound be an OpenAPI 3.0 source
 
-2.3. As a developer i want to extend my JoomLavel-Connector with custom code => uncomment or comment command or type: i.e. 
+2.2. *As a configurations assistent, developer or devOps i install own JoomLavel-Component on my instance and make basic configuration in Joomla administration*
+=> basic configuration should be preconfigured and should expect a simple api endpoint (i.e. https: //api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0)
+=> basic configuration cound be an OpenAPI 3.0 source
+
+2.3. *As a developer i want to extend my JoomLavel-Connector with custom code*
+=> uncomment or comment command or type: i.e. 
  "php JoomLavel make: middleware", to manipulate Source API Data before presenting
  "php JoomLavel make: service", to hardcode a Source API
  "php JoomLavel make: presenter", to create own presenter
 
-3.1. As a developer i clone the JoomLavel-Api project to develop my first JoomLavel API => clone and type:" php JoomLavel make: api AliceFirstLaravel"
+3.1. *As a developer i clone the JoomLavel-Api project to develop my first JoomLavel API*
+=> clone and type:" php JoomLavel make: api AliceFirstLaravel"
