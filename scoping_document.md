@@ -25,16 +25,20 @@
 6. a devOps or developer is integrating laravelinstance packet on traditional hoster with a joomla instance
 
 # functional description
-##Overview over epics
+## Overview over epics
 1. 'i am interessted in JoomLavel', distribution of tutorials, documentation and quickstart
 2. RAD for Joomla Component - php file tool for fast creation on Joomla Component
 3. RAD for Laravel Packet - still undefinied tool for fast Laravel deployment on traditional hoster
 
-##Overview of User Stories
+## Overview of User Stories
+
 1.1. ...
+
 2.1. As a developer i clone the JoomLavel-Connector project to develop my first Joomla component => clone and type:" php JoomLavel make: component BobsFirstComponent"
+
 2.2. As a configurations assistent, developer or devOps i install own JoomLavel-Component on my instance and make basic configuration in Joomla administration => basic configuration should be preconfigured and should expect a simple api endpoint (i.e. https: //api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0)
   => basic configuration cound be an OpenAPI 3.0 source
+
 2.3. As a developer i want to extend my JoomLavel-Connector with custom code => uncomment or comment command or type: i.e. 
  "php JoomLavel make: middleware", to manipulate Source API Data before presenting
  "php JoomLavel make: service", to hardcode a Source API
