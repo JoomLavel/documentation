@@ -6,19 +6,19 @@ We noticed that many web developers start a projects on Joomla (one of tht most 
 We offer a system that has no such limitations, is universal and even allows to integrate already existing software or internet services.
 
 ## Overview
-###JoomLavel/Connect
+### JoomLavel/Connect
 Component Generator based on templates
 Does require JoomLavel/RAD and JoomLavel/templates
 Can be managed by a command line tool in the root directory called JoomLavel
 
-###JoomLavel/JoomlaDbLink
+### JoomLavel/JoomlaDbLink
 Laravel Eloquent Models for Joomla DB
 Can be managed by a command line tool in the root directory called JoomLavel
 
-###JoomLavel/JoomlaAdapter
+### JoomLavel/JoomlaAdapter
 Laravel API for Joomla Views
 
-###JoomLavel/LaravelAdapter
+### JoomLavel/LaravelAdapter
 Joomla Component for Laravel Views
 
 #You can find ...
