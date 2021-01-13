@@ -12,6 +12,19 @@ Component Generator is based on templates. It does require [JoomLavel/RAD](https
 ### JoomLavel/JoomlaDbLink
 This is a [laravel eloquent](https://laravel.com/docs/8.x/eloquent) modelset for a joomla DB. It can be managed by a command line tool in the root directory called *JoomLavel*
 
+`foo@bar:/$ composer create-project --prefer-dist laravel/lumen blog`
+
+`foo@bar:~$ cd blog`
+
+`foo@bar:~$ composer require joomlavel/joomladblink`
+
+`foo@bar:~$ php JoomLavel publish:all`
+
+Do not forget to add the DB_PREFIX of your Joomlaa DB in the .env file
+
+`foo@bar:~$ echo 'DB_PREFIX=mx_' >> .env`
+
+
 ### JoomLavel/JoomlaAdapter
 Laravel API for Joomla Views
 
