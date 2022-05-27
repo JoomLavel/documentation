@@ -36,3 +36,12 @@ Joomla Component for Laravel Views
 ### [scoping document](https://github.com/JoomLavel/documentation/blob/master/scoping_document.md)
 
 documentation of JoomLavel ecosystem, including use cases, user journey, tutorials will follow
+
+
+### Notes
+htacess followSymlinks issue
+
+Configuration.php:
+public $offline = '1';
+public $offline_message = 'This site is down for maintenance";
+public $diplay_offline_message = '0'M
